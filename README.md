@@ -1,27 +1,35 @@
-# Routing
+# Easy Task Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+## Introduction
 
-## Development server
+This is an Angular application that allows administrators to add, complete, and manage tasks for users. Each user's tasks are saved to local storage, ensuring persistence even after the application is closed and reopened.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
-## Code scaffolding
+## Features
+- Add tasks for users.
+- Complete tasks.
+- Close task dialog.
+- Tasks saved in local storage.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
+1. Select a user from the list.
+2. Add a new task for the selected user by clicking the "Add Task" button.
+3. Complete a task by marking it as done.
+4. Close the task dialog when not needed.
+5. Tasks will be saved automatically to local storage.
 
-## Build
+## Live Demo
+Check out the application live here: [Easy Task Application](https://ng-easy-task.web.app)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
+To get a local copy up and running, follow these steps:
 
-## Running unit tests
+1. Clone the repository:
+   `git clone [https://github.com/randwahdan/Easy-Task.git]`
+2. Install the required packages:
+   `npm install`
+3. Run the application:
+   `ng s`
+4. Enjoy managing tasks for your users!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
